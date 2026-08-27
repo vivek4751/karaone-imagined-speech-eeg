@@ -1,0 +1,697 @@
+12.3s	1	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+12.3s	2	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+12.3s	3	0.00s - to python to disable frozen modules.
+12.3s	4	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+13.4s	5	0.00s - Debugger warning: It seems that frozen modules are being used, which may
+13.4s	6	0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+13.4s	7	0.00s - to python to disable frozen modules.
+13.4s	8	0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+20.4s	9	Installing missing packages: meegkit, aeon
+25.5s	10	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.1/93.1 kB 2.4 MB/s eta 0:00:00
+25.7s	11	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.7/6.7 MB 59.1 MB/s eta 0:00:00
+25.7s	12	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.6/153.6 kB 7.4 MB/s eta 0:00:00
+25.7s	13	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.1/93.1 kB 2.4 MB/s eta 0:00:00
+25.7s	14	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.7/6.7 MB 59.1 MB/s eta 0:00:00
+25.7s	15	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.6/153.6 kB 7.4 MB/s eta 0:00:00
+25.7s	16	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.1/79.1 kB 3.6 MB/s eta 0:00:00
+25.8s	17	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.9/119.9 kB 6.0 MB/s eta 0:00:00
+25.9s	18	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.1/79.1 kB 3.6 MB/s eta 0:00:00
+25.9s	19	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.9/119.9 kB 6.0 MB/s eta 0:00:00
+31.2s	20	=== KARAONE FINAL KAGGLE PIPELINE ===
+31.2s	21	KARAONE_ROOT: /kaggle/input/datasets/vivekranjan4751/karaone
+31.2s	22	Subjects: ['MM05', 'MM08', 'MM09', 'MM10', 'MM11', 'MM12', 'MM14', 'MM15', 'MM16', 'MM18', 'MM19', 'MM20', 'MM21', 'P02']
+31.3s	23	Models: ['hydra', 'minirocket_hydra', 'multirocket', 'mr_hydra', 'catch22', 'summary', 'catch22_summary', 'catch22_summary_mr_hydra']
+31.3s	24	Runtime: FAST_MODE=True adaptive_mode=class_weight_fast requested_adaptive_mode=class_weight_fast mode_override=None require_vowel_class_weight=True inner_splits=2 adaptive_metric_aggregation=subject_macro vowel_weights=[1.0, 2.0] adaptive_best_single=True best_single_ba_tolerance=0.01 fine_decimal_vowel_grid=False spatial_filter=laplacian laplacian_neighbors=4 laplacian_mix=0.5 rocket_kernels=512 hydra_kernels=4 hydra_groups=8 n_jobs=2 static_svc_probability=False
+31.3s	25	Preprocessing: asr_notch_car ASR= True notch= 50.0 CAR= True robust_normalize= True vowel_prompt_balance= True vowel_target_ratio= 0.4
+31.3s	26	Evaluation: loso strict LOSO unless explicitly overridden
+35.4s	27	MM05: reading Acquisition 232 Data.set
+77.2s	28	MM05: raw_phonemic=105 kept=75 rejected=30 reject_frac=0.286 subject_rejected=True V=22 C=53 QC[min/med/max]=0.000/0.000/0.211 EOG=False ASR=meegkit
+78.9s	29	MM08: reading Acquisition 261 Data.set
+111.6s	30	MM08: raw_phonemic=83 kept=49 rejected=34 reject_frac=0.410 subject_rejected=True V=14 C=35 QC[min/med/max]=0.000/0.000/0.474 EOG=False ASR=meegkit
+113.4s	31	MM09: reading Acquisition 263 Data.set
+145.1s	32	MM09: raw_phonemic=84 kept=65 rejected=19 reject_frac=0.226 subject_rejected=True V=22 C=43 QC[min/med/max]=0.000/0.000/0.368 EOG=False ASR=meegkit
+147.0s	33	MM10: reading Acquisition 284 Data.set
+178.3s	34	MM10: raw_phonemic=84 kept=58 rejected=26 reject_frac=0.310 subject_rejected=True V=17 C=41 QC[min/med/max]=0.000/0.000/0.316 EOG=False ASR=meegkit
+179.9s	35	MM11: reading Acquisition 283 Data.set
+206.6s	36	MM11: raw_phonemic=84 kept=77 rejected=7 reject_frac=0.083 subject_rejected=False V=21 C=56 QC[min/med/max]=0.000/0.000/0.150 EOG=False ASR=meegkit
+209.1s	37	MM12: reading Acquisition 283 Data.set
+236.3s	38	MM12: raw_phonemic=84 kept=73 rejected=11 reject_frac=0.131 subject_rejected=True V=21 C=52 QC[min/med/max]=0.000/0.000/0.263 EOG=False ASR=meegkit
+237.8s	39	MM14: reading Acquisition 283 Data.set
+270.6s	40	MM14: raw_phonemic=84 kept=63 rejected=21 reject_frac=0.250 subject_rejected=True V=16 C=47 QC[min/med/max]=0.000/0.000/0.421 EOG=False ASR=meegkit
+272.5s	41	MM15: reading Acquisition 283 Data.set
+298.7s	42	MM15: raw_phonemic=84 kept=50 rejected=34 reject_frac=0.405 subject_rejected=True V=15 C=35 QC[min/med/max]=0.000/0.053/0.526 EOG=False ASR=meegkit
+300.8s	43	MM16: reading Acquisition 283 Data.set
+331.6s	44	MM16: raw_phonemic=84 kept=64 rejected=20 reject_frac=0.238 subject_rejected=True V=18 C=46 QC[min/med/max]=0.000/0.000/0.211 EOG=False ASR=meegkit
+334.6s	45	MM18: reading Acquisition 283 Data.set
+368.9s	46	MM18: raw_phonemic=84 kept=64 rejected=20 reject_frac=0.238 subject_rejected=True V=17 C=47 QC[min/med/max]=0.000/0.000/0.316 EOG=False ASR=meegkit
+370.8s	47	MM19: reading Acquisition 283 Data.set
+408.7s	48	MM19: raw_phonemic=84 kept=46 rejected=38 reject_frac=0.452 subject_rejected=True V=11 C=35 QC[min/med/max]=0.000/0.053/0.263 EOG=False ASR=meegkit
+410.2s	49	MM20: reading Acquisition 283 Data.set
+442.5s	50	MM20: raw_phonemic=84 kept=20 rejected=64 reject_frac=0.762 subject_rejected=True V=6 C=14 QC[min/med/max]=0.000/0.158/0.579 EOG=False ASR=meegkit
+444.2s	51	MM21: reading Acquisition 01 Data.set
+473.7s	52	MM21: raw_phonemic=84 kept=77 rejected=7 reject_frac=0.083 subject_rejected=False V=20 C=57 QC[min/med/max]=0.000/0.000/0.105 EOG=False ASR=meegkit
+475.5s	53	P02: reading EEG_SPEECH_TEST_20140530.set
+507.1s	54	P02: raw_phonemic=105 kept=95 rejected=10 reject_frac=0.095 subject_rejected=False V=24 C=71 QC[min/med/max]=0.000/0.000/0.368 EOG=False ASR=meegkit
+507.2s	55	SELECTED COHORT: X=(578, 62, 1280) trials=578 vowels=159 consonants=419 subjects=['MM21', 'MM11', 'P02', 'MM12', 'MM09', 'MM16', 'MM18', 'MM14']
+518.0s	56	
+518.0s	57	FOLD 1: held-out=MM21 train=501 test=77
+518.1s	58	    hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+518.1s	59	      hydra: inner fit 1/2 weight=1
+521.6s	60	      hydra: inner fit 2/2 weight=1
+524.3s	61	      hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.700 inner_BA=0.531
+524.3s	62	      hydra: inner fit 1/2 weight=2
+527.0s	63	      hydra: inner fit 2/2 weight=2
+529.5s	64	      hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.911 inner_BA=0.494
+529.5s	65	    hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+529.5s	66	    hydra: final fit with vowel_weight=1 class_weight0=1.8022 class_weight1=0.6920
+533.6s	67	  hydra: vowel_weight=1.00 class_weight0=1.802 threshold=0.50 acc=0.688 BA=0.481 Vrec=0.050 Crec=0.912
+533.6s	68	    minirocket_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+533.6s	69	      minirocket_hydra: inner fit 1/2 weight=1
+571.3s	70	      minirocket_hydra: inner fit 2/2 weight=1
+577.9s	71	      minirocket_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.577 inner_BA=0.552
+577.9s	72	      minirocket_hydra: inner fit 1/2 weight=2
+584.7s	73	      minirocket_hydra: inner fit 2/2 weight=2
+592.2s	74	      minirocket_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.837 inner_BA=0.524
+592.2s	75	    minirocket_hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+592.2s	76	    minirocket_hydra: final fit with vowel_weight=1 class_weight0=1.8022 class_weight1=0.6920
+603.7s	77	  minirocket_hydra: vowel_weight=1.00 class_weight0=1.802 threshold=0.50 acc=0.753 BA=0.525 Vrec=0.050 Crec=1.000
+603.8s	78	    multirocket: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+603.8s	79	      multirocket: inner fit 1/2 weight=1
+670.7s	80	      multirocket: inner fit 2/2 weight=1
+679.5s	81	      multirocket: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.431 inner_BA=0.507
+679.5s	82	      multirocket: inner fit 1/2 weight=2
+688.7s	83	      multirocket: inner fit 2/2 weight=2
+697.3s	84	      multirocket: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.466 inner_BA=0.499
+697.3s	85	    multirocket: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+697.3s	86	    multirocket: final fit with vowel_weight=1 class_weight0=1.8022 class_weight1=0.6920
+708.2s	87	  multirocket: vowel_weight=1.00 class_weight0=1.802 threshold=0.50 acc=0.662 BA=0.480 Vrec=0.100 Crec=0.860
+708.3s	88	    mr_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+708.3s	89	      mr_hydra: inner fit 1/2 weight=1
+758.3s	90	      mr_hydra: inner fit 2/2 weight=1
+803.5s	91	      mr_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.472 inner_BA=0.495
+803.5s	92	      mr_hydra: inner fit 1/2 weight=2
+851.5s	93	      mr_hydra: inner fit 2/2 weight=2
+897.9s	94	      mr_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.484 inner_BA=0.499
+897.9s	95	    mr_hydra: weight_guard selected_nonunit=False vowel_gain=0.012 BA_delta=0.005 Crec_delta=-0.002
+897.9s	96	    mr_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+897.9s	97	    mr_hydra: final fit with vowel_weight=1 class_weight0=1.8022 class_weight1=0.6920
+957.3s	98	  mr_hydra: vowel_weight=1.00 class_weight0=1.802 threshold=0.50 acc=0.727 BA=0.491 Vrec=0.000 Crec=0.982
+957.4s	99	    catch22: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+957.4s	100	      catch22: inner fit 1/2 weight=1
+1163.3s	101	      catch22: inner fit 2/2 weight=1
+1326.9s	102	      catch22: weight=1 selected_inner_threshold=0.60 inner_Vrec=0.705 inner_BA=0.536
+1326.9s	103	      catch22: inner fit 1/2 weight=2
+1495.8s	104	      catch22: inner fit 2/2 weight=2
+1662.3s	105	      catch22: weight=2 selected_inner_threshold=0.60 inner_Vrec=0.516 inner_BA=0.526
+1662.3s	106	    catch22: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+1662.3s	107	    catch22: final fit with vowel_weight=1 class_weight0=1.8022 class_weight1=0.6920
+1870.6s	108	  catch22: vowel_weight=1.00 class_weight0=1.802 threshold=0.60 acc=0.416 BA=0.492 Vrec=0.650 Crec=0.333
+1870.6s	109	    summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+1870.6s	110	      summary: inner fit 1/2 weight=1
+1875.6s	111	      summary: inner fit 2/2 weight=1
+1880.6s	112	      summary: weight=1 selected_inner_threshold=0.35 inner_Vrec=0.115 inner_BA=0.521
+1880.6s	113	      summary: inner fit 1/2 weight=2
+1885.5s	114	      summary: inner fit 2/2 weight=2
+1890.4s	115	      summary: weight=2 selected_inner_threshold=0.35 inner_Vrec=0.150 inner_BA=0.524
+1890.4s	116	    summary: weight_guard selected_nonunit=False vowel_gain=0.035 BA_delta=0.003 Crec_delta=-0.029
+1890.4s	117	    summary: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+1890.4s	118	    summary: final fit with vowel_weight=1 class_weight0=1.8022 class_weight1=0.6920
+1896.6s	119	  summary: vowel_weight=1.00 class_weight0=1.802 threshold=0.35 acc=0.714 BA=0.482 Vrec=0.000 Crec=0.965
+1896.6s	120	    catch22_summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+1896.6s	121	      catch22_summary: inner fit 1/2 weight=1
+2071.7s	122	      catch22_summary: inner fit 2/2 weight=1
+2240.5s	123	      catch22_summary: weight=1 selected_inner_threshold=0.55 inner_Vrec=0.794 inner_BA=0.536
+2240.5s	124	      catch22_summary: inner fit 1/2 weight=2
+2416.0s	125	      catch22_summary: inner fit 2/2 weight=2
+2580.6s	126	      catch22_summary: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.437 inner_BA=0.527
+2580.6s	127	    catch22_summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+2580.6s	128	    catch22_summary: final fit with vowel_weight=1 class_weight0=1.8022 class_weight1=0.6920
+2799.8s	129	  catch22_summary: vowel_weight=1.00 class_weight0=1.802 threshold=0.55 acc=0.506 BA=0.423 Vrec=0.250 Crec=0.596
+2799.8s	130	  adaptive_best_single: source=minirocket_hydra vowel_weight=1.00 threshold=0.50 acc=0.753 BA=0.525 Vrec=0.050 Crec=1.000
+2800.6s	131	  catch22_summary_mr_hydra: bases=['catch22_summary', 'mr_hydra'] weights={'catch22_summary': 1.0, 'mr_hydra': 0.0} threshold=0.50 acc=0.571 BA=0.467 Vrec=0.250 Crec=0.684
+2800.6s	132	
+2800.6s	133	FOLD 2: held-out=MM11 train=501 test=77
+2800.7s	134	    hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+2800.7s	135	      hydra: inner fit 1/2 weight=1
+2804.4s	136	      hydra: inner fit 2/2 weight=1
+2807.9s	137	      hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.640 inner_BA=0.507
+2807.9s	138	      hydra: inner fit 1/2 weight=2
+2811.2s	139	      hydra: inner fit 2/2 weight=2
+2814.7s	140	      hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.977 inner_BA=0.501
+2814.7s	141	    hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+2814.7s	142	    hydra: final fit with vowel_weight=1 class_weight0=1.8152 class_weight1=0.6901
+2820.2s	143	  hydra: vowel_weight=1.00 class_weight0=1.815 threshold=0.50 acc=0.662 BA=0.455 Vrec=0.000 Crec=0.911
+2820.3s	144	    minirocket_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+2820.3s	145	      minirocket_hydra: inner fit 1/2 weight=1
+2827.9s	146	      minirocket_hydra: inner fit 2/2 weight=1
+2835.4s	147	      minirocket_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.520 inner_BA=0.517
+2835.4s	148	      minirocket_hydra: inner fit 1/2 weight=2
+2842.8s	149	      minirocket_hydra: inner fit 2/2 weight=2
+2850.3s	150	      minirocket_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.867 inner_BA=0.529
+2850.3s	151	    minirocket_hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+2850.3s	152	    minirocket_hydra: final fit with vowel_weight=1 class_weight0=1.8152 class_weight1=0.6901
+2860.0s	153	  minirocket_hydra: vowel_weight=1.00 class_weight0=1.815 threshold=0.50 acc=0.701 BA=0.482 Vrec=0.000 Crec=0.964
+2860.1s	154	    multirocket: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+2860.1s	155	      multirocket: inner fit 1/2 weight=1
+2869.2s	156	      multirocket: inner fit 2/2 weight=1
+2878.7s	157	      multirocket: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.452 inner_BA=0.492
+2878.7s	158	      multirocket: inner fit 1/2 weight=2
+2887.8s	159	      multirocket: inner fit 2/2 weight=2
+2897.7s	160	      multirocket: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.607 inner_BA=0.487
+2897.7s	161	    multirocket: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+2897.7s	162	    multirocket: final fit with vowel_weight=1 class_weight0=1.8152 class_weight1=0.6901
+2909.4s	163	  multirocket: vowel_weight=1.00 class_weight0=1.815 threshold=0.50 acc=0.532 BA=0.470 Vrec=0.333 Crec=0.607
+2909.4s	164	    mr_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+2909.4s	165	      mr_hydra: inner fit 1/2 weight=1
+2958.4s	166	      mr_hydra: inner fit 2/2 weight=1
+3008.1s	167	      mr_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.448 inner_BA=0.490
+3008.1s	168	      mr_hydra: inner fit 1/2 weight=2
+3061.9s	169	      mr_hydra: inner fit 2/2 weight=2
+3114.2s	170	      mr_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.448 inner_BA=0.487
+3114.2s	171	    mr_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+3114.2s	172	    mr_hydra: final fit with vowel_weight=1 class_weight0=1.8152 class_weight1=0.6901
+3177.2s	173	  mr_hydra: vowel_weight=1.00 class_weight0=1.815 threshold=0.50 acc=0.545 BA=0.509 Vrec=0.429 Crec=0.589
+3177.3s	174	    catch22: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+3177.3s	175	      catch22: inner fit 1/2 weight=1
+3341.7s	176	      catch22: inner fit 2/2 weight=1
+3504.7s	177	      catch22: weight=1 selected_inner_threshold=0.65 inner_Vrec=0.750 inner_BA=0.500
+3504.7s	178	      catch22: inner fit 1/2 weight=2
+3670.2s	179	      catch22: inner fit 2/2 weight=2
+3838.7s	180	      catch22: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.347 inner_BA=0.539
+3838.7s	181	    catch22: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+3838.7s	182	    catch22: final fit with vowel_weight=1 class_weight0=1.8152 class_weight1=0.6901
+4043.3s	183	  catch22: vowel_weight=1.00 class_weight0=1.815 threshold=0.65 acc=0.364 BA=0.533 Vrec=0.905 Crec=0.161
+4043.3s	184	    summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+4043.4s	185	      summary: inner fit 1/2 weight=1
+4048.2s	186	      summary: inner fit 2/2 weight=1
+4053.2s	187	      summary: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.583 inner_BA=0.522
+4053.2s	188	      summary: inner fit 1/2 weight=2
+4058.1s	189	      summary: inner fit 2/2 weight=2
+4063.2s	190	      summary: weight=2 selected_inner_threshold=0.40 inner_Vrec=0.435 inner_BA=0.541
+4063.2s	191	    summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+4063.2s	192	    summary: final fit with vowel_weight=1 class_weight0=1.8152 class_weight1=0.6901
+4069.5s	193	  summary: vowel_weight=1.00 class_weight0=1.815 threshold=0.50 acc=0.545 BA=0.464 Vrec=0.286 Crec=0.643
+4069.6s	194	    catch22_summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+4069.6s	195	      catch22_summary: inner fit 1/2 weight=1
+4239.2s	196	      catch22_summary: inner fit 2/2 weight=1
+4412.5s	197	      catch22_summary: weight=1 selected_inner_threshold=0.60 inner_Vrec=0.753 inner_BA=0.504
+4412.5s	198	      catch22_summary: inner fit 1/2 weight=2
+4584.5s	199	      catch22_summary: inner fit 2/2 weight=2
+4757.3s	200	      catch22_summary: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.752 inner_BA=0.519
+4757.3s	201	    catch22_summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+4757.3s	202	    catch22_summary: final fit with vowel_weight=1 class_weight0=1.8152 class_weight1=0.6901
+4971.6s	203	  catch22_summary: vowel_weight=1.00 class_weight0=1.815 threshold=0.60 acc=0.403 BA=0.560 Vrec=0.905 Crec=0.214
+4971.6s	204	  adaptive_best_single: source=summary vowel_weight=1.00 threshold=0.50 acc=0.545 BA=0.464 Vrec=0.286 Crec=0.643
+4972.5s	205	  catch22_summary_mr_hydra: bases=['catch22_summary', 'mr_hydra'] weights={'catch22_summary': 0.4, 'mr_hydra': 0.6} threshold=0.50 acc=0.481 BA=0.554 Vrec=0.714 Crec=0.393
+4972.5s	206	
+4972.5s	207	FOLD 3: held-out=P02 train=483 test=95
+4972.5s	208	    hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+4972.5s	209	      hydra: inner fit 1/2 weight=1
+4975.8s	210	      hydra: inner fit 2/2 weight=1
+4978.9s	211	      hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.567 inner_BA=0.492
+4978.9s	212	      hydra: inner fit 1/2 weight=2
+4982.2s	213	      hydra: inner fit 2/2 weight=2
+4985.3s	214	      hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.685 inner_BA=0.501
+4985.3s	215	    hydra: weight_guard selected_nonunit=False vowel_gain=0.117 BA_delta=0.009 Crec_delta=-0.100
+4985.3s	216	    hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+4985.3s	217	    hydra: final fit with vowel_weight=1 class_weight0=1.7889 class_weight1=0.6940
+4989.8s	218	  hydra: vowel_weight=1.00 class_weight0=1.789 threshold=0.50 acc=0.389 BA=0.481 Vrec=0.667 Crec=0.296
+4989.9s	219	    minirocket_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+4989.9s	220	      minirocket_hydra: inner fit 1/2 weight=1
+4996.9s	221	      minirocket_hydra: inner fit 2/2 weight=1
+5003.9s	222	      minirocket_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.343 inner_BA=0.497
+5003.9s	223	      minirocket_hydra: inner fit 1/2 weight=2
+5010.9s	224	      minirocket_hydra: inner fit 2/2 weight=2
+5017.7s	225	      minirocket_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.637 inner_BA=0.501
+5017.7s	226	    minirocket_hydra: weight_guard selected_nonunit=False vowel_gain=0.294 BA_delta=0.004 Crec_delta=-0.287
+5017.7s	227	    minirocket_hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+5017.7s	228	    minirocket_hydra: final fit with vowel_weight=1 class_weight0=1.7889 class_weight1=0.6940
+5027.2s	229	  minirocket_hydra: vowel_weight=1.00 class_weight0=1.789 threshold=0.50 acc=0.537 BA=0.538 Vrec=0.542 Crec=0.535
+5027.3s	230	    multirocket: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+5027.3s	231	      multirocket: inner fit 1/2 weight=1
+5036.8s	232	      multirocket: inner fit 2/2 weight=1
+5045.8s	233	      multirocket: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.523 inner_BA=0.488
+5045.8s	234	      multirocket: inner fit 1/2 weight=2
+5055.7s	235	      multirocket: inner fit 2/2 weight=2
+5064.7s	236	      multirocket: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.588 inner_BA=0.495
+5064.7s	237	    multirocket: weight_guard selected_nonunit=True vowel_gain=0.064 BA_delta=0.007 Crec_delta=-0.049
+5064.7s	238	    multirocket: selected vowel_weight=2 by fallback_balanced_accuracy_no_feasible_weight
+5064.7s	239	    multirocket: final fit with vowel_weight=2 class_weight0=3.5778 class_weight1=0.6940
+5076.0s	240	  multirocket: vowel_weight=2.00 class_weight0=3.578 threshold=0.50 acc=0.474 BA=0.496 Vrec=0.542 Crec=0.451
+5076.0s	241	    mr_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+5076.0s	242	      mr_hydra: inner fit 1/2 weight=1
+5125.3s	243	      mr_hydra: inner fit 2/2 weight=1
+5171.3s	244	      mr_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.421 inner_BA=0.524
+5171.3s	245	      mr_hydra: inner fit 1/2 weight=2
+5222.5s	246	      mr_hydra: inner fit 2/2 weight=2
+5269.7s	247	      mr_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.421 inner_BA=0.522
+5269.7s	248	    mr_hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+5269.7s	249	    mr_hydra: final fit with vowel_weight=1 class_weight0=1.7889 class_weight1=0.6940
+5331.7s	250	  mr_hydra: vowel_weight=1.00 class_weight0=1.789 threshold=0.50 acc=0.737 BA=0.493 Vrec=0.000 Crec=0.986
+5331.7s	251	    catch22: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+5331.7s	252	      catch22: inner fit 1/2 weight=1
+5501.5s	253	      catch22: inner fit 2/2 weight=1
+5661.1s	254	      catch22: weight=1 selected_inner_threshold=0.55 inner_Vrec=0.532 inner_BA=0.506
+5661.1s	255	      catch22: inner fit 1/2 weight=2
+5827.2s	256	      catch22: inner fit 2/2 weight=2
+5985.1s	257	      catch22: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.678 inner_BA=0.533
+5985.1s	258	    catch22: weight_guard selected_nonunit=False vowel_gain=0.146 BA_delta=0.026 Crec_delta=-0.094
+5985.2s	259	    catch22: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+5985.2s	260	    catch22: final fit with vowel_weight=1 class_weight0=1.7889 class_weight1=0.6940
+6189.1s	261	  catch22: vowel_weight=1.00 class_weight0=1.789 threshold=0.55 acc=0.611 BA=0.546 Vrec=0.417 Crec=0.676
+6189.2s	262	    summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+6189.2s	263	      summary: inner fit 1/2 weight=1
+6194.2s	264	      summary: inner fit 2/2 weight=1
+6198.9s	265	      summary: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.677 inner_BA=0.508
+6198.9s	266	      summary: inner fit 1/2 weight=2
+6203.8s	267	      summary: inner fit 2/2 weight=2
+6208.7s	268	      summary: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.711 inner_BA=0.504
+6208.7s	269	    summary: weight_guard selected_nonunit=False vowel_gain=0.034 BA_delta=-0.004 Crec_delta=-0.043
+6208.7s	270	    summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+6208.7s	271	    summary: final fit with vowel_weight=1 class_weight0=1.7889 class_weight1=0.6940
+6215.2s	272	  summary: vowel_weight=1.00 class_weight0=1.789 threshold=0.50 acc=0.453 BA=0.592 Vrec=0.875 Crec=0.310
+6215.3s	273	    catch22_summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+6215.3s	274	      catch22_summary: inner fit 1/2 weight=1
+6389.1s	275	      catch22_summary: inner fit 2/2 weight=1
+6554.0s	276	      catch22_summary: weight=1 selected_inner_threshold=0.60 inner_Vrec=0.692 inner_BA=0.524
+6554.0s	277	      catch22_summary: inner fit 1/2 weight=2
+6722.9s	278	      catch22_summary: inner fit 2/2 weight=2
+6884.8s	279	      catch22_summary: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.639 inner_BA=0.534
+6884.8s	280	    catch22_summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+6884.8s	281	    catch22_summary: final fit with vowel_weight=1 class_weight0=1.7889 class_weight1=0.6940
+7103.4s	282	  catch22_summary: vowel_weight=1.00 class_weight0=1.789 threshold=0.60 acc=0.442 BA=0.544 Vrec=0.750 Crec=0.338
+7103.4s	283	  adaptive_best_single: source=catch22_summary vowel_weight=1.00 threshold=0.60 acc=0.442 BA=0.544 Vrec=0.750 Crec=0.338
+7104.3s	284	  catch22_summary_mr_hydra: bases=['catch22_summary', 'mr_hydra'] weights={'catch22_summary': 1.0, 'mr_hydra': 0.0} threshold=0.50 acc=0.516 BA=0.511 Vrec=0.500 Crec=0.521
+7104.3s	285	
+7104.3s	286	FOLD 4: held-out=MM12 train=505 test=73
+7104.4s	287	    hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+7104.4s	288	      hydra: inner fit 1/2 weight=1
+7108.3s	289	      hydra: inner fit 2/2 weight=1
+7111.6s	290	      hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.554 inner_BA=0.484
+7111.6s	291	      hydra: inner fit 1/2 weight=2
+7114.7s	292	      hydra: inner fit 2/2 weight=2
+7118.1s	293	      hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.731 inner_BA=0.455
+7118.1s	294	    hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+7118.1s	295	    hydra: final fit with vowel_weight=1 class_weight0=1.8297 class_weight1=0.6880
+7122.8s	296	  hydra: vowel_weight=1.00 class_weight0=1.830 threshold=0.50 acc=0.288 BA=0.500 Vrec=1.000 Crec=0.000
+7122.8s	297	    minirocket_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+7122.8s	298	      minirocket_hydra: inner fit 1/2 weight=1
+7129.9s	299	      minirocket_hydra: inner fit 2/2 weight=1
+7137.3s	300	      minirocket_hydra: weight=1 selected_inner_threshold=0.55 inner_Vrec=0.773 inner_BA=0.506
+7137.3s	301	      minirocket_hydra: inner fit 1/2 weight=2
+7144.6s	302	      minirocket_hydra: inner fit 2/2 weight=2
+7152.2s	303	      minirocket_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.509 inner_BA=0.487
+7152.2s	304	    minirocket_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+7152.2s	305	    minirocket_hydra: final fit with vowel_weight=1 class_weight0=1.8297 class_weight1=0.6880
+7162.2s	306	  minirocket_hydra: vowel_weight=1.00 class_weight0=1.830 threshold=0.55 acc=0.288 BA=0.500 Vrec=1.000 Crec=0.000
+7162.3s	307	    multirocket: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+7162.3s	308	      multirocket: inner fit 1/2 weight=1
+7171.7s	309	      multirocket: inner fit 2/2 weight=1
+7180.8s	310	      multirocket: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.273 inner_BA=0.504
+7180.8s	311	      multirocket: inner fit 1/2 weight=2
+7190.2s	312	      multirocket: inner fit 2/2 weight=2
+7199.4s	313	      multirocket: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.288 inner_BA=0.493
+7199.4s	314	    multirocket: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+7199.4s	315	    multirocket: final fit with vowel_weight=1 class_weight0=1.8297 class_weight1=0.6880
+7211.0s	316	  multirocket: vowel_weight=1.00 class_weight0=1.830 threshold=0.50 acc=0.288 BA=0.486 Vrec=0.952 Crec=0.019
+7211.0s	317	    mr_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+7211.0s	318	      mr_hydra: inner fit 1/2 weight=1
+7259.3s	319	      mr_hydra: inner fit 2/2 weight=1
+7306.8s	320	      mr_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.145 inner_BA=0.488
+7306.8s	321	      mr_hydra: inner fit 1/2 weight=2
+7354.9s	322	      mr_hydra: inner fit 2/2 weight=2
+7402.8s	323	      mr_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.167 inner_BA=0.497
+7402.8s	324	    mr_hydra: weight_guard selected_nonunit=False vowel_gain=0.022 BA_delta=0.010 Crec_delta=-0.003
+7402.8s	325	    mr_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+7402.8s	326	    mr_hydra: final fit with vowel_weight=1 class_weight0=1.8297 class_weight1=0.6880
+7464.8s	327	  mr_hydra: vowel_weight=1.00 class_weight0=1.830 threshold=0.50 acc=0.411 BA=0.572 Vrec=0.952 Crec=0.192
+7464.9s	328	    catch22: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+7464.9s	329	      catch22: inner fit 1/2 weight=1
+7637.7s	330	      catch22: inner fit 2/2 weight=1
+7808.6s	331	      catch22: weight=1 selected_inner_threshold=0.55 inner_Vrec=0.410 inner_BA=0.532
+7808.6s	332	      catch22: inner fit 1/2 weight=2
+7983.3s	333	      catch22: inner fit 2/2 weight=2
+8155.0s	334	      catch22: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.455 inner_BA=0.514
+8155.0s	335	    catch22: weight_guard selected_nonunit=False vowel_gain=0.045 BA_delta=-0.018 Crec_delta=-0.081
+8155.0s	336	    catch22: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+8155.0s	337	    catch22: final fit with vowel_weight=1 class_weight0=1.8297 class_weight1=0.6880
+8370.9s	338	  catch22: vowel_weight=1.00 class_weight0=1.830 threshold=0.55 acc=0.521 BA=0.479 Vrec=0.381 Crec=0.577
+8371.0s	339	    summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+8371.0s	340	      summary: inner fit 1/2 weight=1
+8376.6s	341	      summary: inner fit 2/2 weight=1
+8381.8s	342	      summary: weight=1 selected_inner_threshold=0.40 inner_Vrec=0.051 inner_BA=0.507
+8381.8s	343	      summary: inner fit 1/2 weight=2
+8386.9s	344	      summary: inner fit 2/2 weight=2
+8392.1s	345	      summary: weight=2 selected_inner_threshold=0.40 inner_Vrec=0.059 inner_BA=0.505
+8392.1s	346	    summary: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+8392.1s	347	    summary: final fit with vowel_weight=1 class_weight0=1.8297 class_weight1=0.6880
+8398.8s	348	  summary: vowel_weight=1.00 class_weight0=1.830 threshold=0.40 acc=0.630 BA=0.471 Vrec=0.095 Crec=0.846
+8398.8s	349	    catch22_summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+8398.8s	350	      catch22_summary: inner fit 1/2 weight=1
+8577.3s	351	      catch22_summary: inner fit 2/2 weight=1
+8750.1s	352	      catch22_summary: weight=1 selected_inner_threshold=0.45 inner_Vrec=0.074 inner_BA=0.515
+8750.1s	353	      catch22_summary: inner fit 1/2 weight=2
+8936.5s	354	      catch22_summary: inner fit 2/2 weight=2
+9113.6s	355	      catch22_summary: weight=2 selected_inner_threshold=0.40 inner_Vrec=0.052 inner_BA=0.516
+9113.6s	356	    catch22_summary: weight_guard selected_nonunit=False vowel_gain=-0.022 BA_delta=0.000 Crec_delta=0.023
+9113.6s	357	    catch22_summary: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+9113.6s	358	    catch22_summary: final fit with vowel_weight=1 class_weight0=1.8297 class_weight1=0.6880
+9328.9s	359	  catch22_summary: vowel_weight=1.00 class_weight0=1.830 threshold=0.45 acc=0.671 BA=0.485 Vrec=0.048 Crec=0.923
+9328.9s	360	  adaptive_best_single: source=catch22 vowel_weight=1.00 threshold=0.55 acc=0.521 BA=0.479 Vrec=0.381 Crec=0.577
+9329.6s	361	  catch22_summary_mr_hydra: bases=['catch22_summary', 'mr_hydra'] weights={'catch22_summary': 0.4, 'mr_hydra': 0.6} threshold=0.50 acc=0.616 BA=0.447 Vrec=0.048 Crec=0.846
+9329.6s	362	
+9329.6s	363	FOLD 5: held-out=MM09 train=513 test=65
+9329.7s	364	    hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+9329.7s	365	      hydra: inner fit 1/2 weight=1
+9333.6s	366	      hydra: inner fit 2/2 weight=1
+9337.2s	367	      hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.356 inner_BA=0.504
+9337.2s	368	      hydra: inner fit 1/2 weight=2
+9340.6s	369	      hydra: inner fit 2/2 weight=2
+9344.1s	370	      hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.675 inner_BA=0.518
+9344.1s	371	    hydra: weight_guard selected_nonunit=False vowel_gain=0.319 BA_delta=0.014 Crec_delta=-0.292
+9344.1s	372	    hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+9344.1s	373	    hydra: final fit with vowel_weight=1 class_weight0=1.8723 class_weight1=0.6822
+9348.9s	374	  hydra: vowel_weight=1.00 class_weight0=1.872 threshold=0.50 acc=0.308 BA=0.410 Vrec=0.727 Crec=0.093
+9349.0s	375	    minirocket_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+9349.0s	376	      minirocket_hydra: inner fit 1/2 weight=1
+9357.0s	377	      minirocket_hydra: inner fit 2/2 weight=1
+9365.6s	378	      minirocket_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.215 inner_BA=0.503
+9365.6s	379	      minirocket_hydra: inner fit 1/2 weight=2
+9376.1s	380	      minirocket_hydra: inner fit 2/2 weight=2
+9384.3s	381	      minirocket_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.433 inner_BA=0.514
+9384.3s	382	    minirocket_hydra: weight_guard selected_nonunit=False vowel_gain=0.218 BA_delta=0.011 Crec_delta=-0.196
+9384.3s	383	    minirocket_hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+9384.3s	384	    minirocket_hydra: final fit with vowel_weight=1 class_weight0=1.8723 class_weight1=0.6822
+9395.2s	385	  minirocket_hydra: vowel_weight=1.00 class_weight0=1.872 threshold=0.50 acc=0.385 BA=0.468 Vrec=0.727 Crec=0.209
+9395.3s	386	    multirocket: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+9395.3s	387	      multirocket: inner fit 1/2 weight=1
+9405.4s	388	      multirocket: inner fit 2/2 weight=1
+9415.0s	389	      multirocket: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.158 inner_BA=0.478
+9415.0s	390	      multirocket: inner fit 1/2 weight=2
+9424.7s	391	      multirocket: inner fit 2/2 weight=2
+9434.2s	392	      multirocket: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.243 inner_BA=0.473
+9434.2s	393	    multirocket: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+9434.2s	394	    multirocket: final fit with vowel_weight=1 class_weight0=1.8723 class_weight1=0.6822
+9445.8s	395	  multirocket: vowel_weight=1.00 class_weight0=1.872 threshold=0.50 acc=0.585 BA=0.564 Vrec=0.500 Crec=0.628
+9445.9s	396	    mr_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+9445.9s	397	      mr_hydra: inner fit 1/2 weight=1
+9496.6s	398	      mr_hydra: inner fit 2/2 weight=1
+9547.3s	399	      mr_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.241 inner_BA=0.503
+9547.3s	400	      mr_hydra: inner fit 1/2 weight=2
+9600.4s	401	      mr_hydra: inner fit 2/2 weight=2
+9657.0s	402	      mr_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.241 inner_BA=0.501
+9657.0s	403	    mr_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+9657.0s	404	    mr_hydra: final fit with vowel_weight=1 class_weight0=1.8723 class_weight1=0.6822
+9720.3s	405	  mr_hydra: vowel_weight=1.00 class_weight0=1.872 threshold=0.50 acc=0.600 BA=0.498 Vrec=0.182 Crec=0.814
+9720.3s	406	    catch22: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+9720.3s	407	      catch22: inner fit 1/2 weight=1
+9896.8s	408	      catch22: inner fit 2/2 weight=1
+10071.0s	409	      catch22: weight=1 selected_inner_threshold=0.65 inner_Vrec=0.903 inner_BA=0.522
+10071.0s	410	      catch22: inner fit 1/2 weight=2
+10250.8s	411	      catch22: inner fit 2/2 weight=2
+10424.4s	412	      catch22: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.564 inner_BA=0.503
+10424.4s	413	    catch22: weight_guard selected_nonunit=False vowel_gain=-0.339 BA_delta=-0.019 Crec_delta=0.300
+10424.4s	414	    catch22: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+10424.4s	415	    catch22: final fit with vowel_weight=1 class_weight0=1.8723 class_weight1=0.6822
+10635.9s	416	  catch22: vowel_weight=1.00 class_weight0=1.872 threshold=0.65 acc=0.369 BA=0.501 Vrec=0.909 Crec=0.093
+10635.9s	417	    summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+10635.9s	418	      summary: inner fit 1/2 weight=1
+10641.5s	419	      summary: inner fit 2/2 weight=1
+10646.6s	420	      summary: weight=1 selected_inner_threshold=0.55 inner_Vrec=0.676 inner_BA=0.515
+10646.6s	421	      summary: inner fit 1/2 weight=2
+10652.1s	422	      summary: inner fit 2/2 weight=2
+10657.3s	423	      summary: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.735 inner_BA=0.529
+10657.3s	424	    summary: weight_guard selected_nonunit=True vowel_gain=0.058 BA_delta=0.014 Crec_delta=-0.030
+10657.3s	425	    summary: selected vowel_weight=2 by vowel_recall_priority_within_global_ba_tolerance
+10657.3s	426	    summary: final fit with vowel_weight=2 class_weight0=3.7445 class_weight1=0.6822
+10663.9s	427	  summary: vowel_weight=2.00 class_weight0=3.745 threshold=0.55 acc=0.431 BA=0.459 Vrec=0.545 Crec=0.372
+10664.0s	428	    catch22_summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+10664.0s	429	      catch22_summary: inner fit 1/2 weight=1
+10850.2s	430	      catch22_summary: inner fit 2/2 weight=1
+11030.4s	431	      catch22_summary: weight=1 selected_inner_threshold=0.60 inner_Vrec=0.781 inner_BA=0.517
+11030.4s	432	      catch22_summary: inner fit 1/2 weight=2
+11216.4s	433	      catch22_summary: inner fit 2/2 weight=2
+11399.0s	434	      catch22_summary: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.663 inner_BA=0.520
+11399.0s	435	    catch22_summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+11399.0s	436	    catch22_summary: final fit with vowel_weight=1 class_weight0=1.8723 class_weight1=0.6822
+11620.8s	437	  catch22_summary: vowel_weight=1.00 class_weight0=1.872 threshold=0.60 acc=0.523 BA=0.595 Vrec=0.818 Crec=0.372
+11620.8s	438	  adaptive_best_single: source=summary vowel_weight=2.00 threshold=0.55 acc=0.431 BA=0.459 Vrec=0.545 Crec=0.372
+11621.6s	439	  catch22_summary_mr_hydra: bases=['catch22_summary', 'mr_hydra'] weights={'catch22_summary': 0.6, 'mr_hydra': 0.4} threshold=0.50 acc=0.631 BA=0.554 Vrec=0.318 Crec=0.791
+11621.6s	440	
+11621.6s	441	FOLD 6: held-out=MM16 train=514 test=64
+11621.8s	442	    hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+11621.8s	443	      hydra: inner fit 1/2 weight=1
+11625.7s	444	      hydra: inner fit 2/2 weight=1
+11629.2s	445	      hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.387 inner_BA=0.484
+11629.2s	446	      hydra: inner fit 1/2 weight=2
+11632.5s	447	      hydra: inner fit 2/2 weight=2
+11636.1s	448	      hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.458 inner_BA=0.457
+11636.1s	449	    hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+11636.1s	450	    hydra: final fit with vowel_weight=1 class_weight0=1.8227 class_weight1=0.6890
+11640.7s	451	  hydra: vowel_weight=1.00 class_weight0=1.823 threshold=0.50 acc=0.391 BA=0.576 Vrec=1.000 Crec=0.152
+11640.8s	452	    minirocket_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+11640.8s	453	      minirocket_hydra: inner fit 1/2 weight=1
+11647.8s	454	      minirocket_hydra: inner fit 2/2 weight=1
+11655.8s	455	      minirocket_hydra: weight=1 selected_inner_threshold=0.55 inner_Vrec=0.572 inner_BA=0.499
+11655.8s	456	      minirocket_hydra: inner fit 1/2 weight=2
+11662.9s	457	      minirocket_hydra: inner fit 2/2 weight=2
+11670.8s	458	      minirocket_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.405 inner_BA=0.478
+11670.8s	459	    minirocket_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+11670.8s	460	    minirocket_hydra: final fit with vowel_weight=1 class_weight0=1.8227 class_weight1=0.6890
+11681.1s	461	  minirocket_hydra: vowel_weight=1.00 class_weight0=1.823 threshold=0.55 acc=0.312 BA=0.522 Vrec=1.000 Crec=0.043
+11681.2s	462	    multirocket: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+11681.2s	463	      multirocket: inner fit 1/2 weight=1
+11691.2s	464	      multirocket: inner fit 2/2 weight=1
+11701.1s	465	      multirocket: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.464 inner_BA=0.492
+11701.1s	466	      multirocket: inner fit 1/2 weight=2
+11711.3s	467	      multirocket: inner fit 2/2 weight=2
+11720.8s	468	      multirocket: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.539 inner_BA=0.491
+11720.8s	469	    multirocket: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+11720.8s	470	    multirocket: final fit with vowel_weight=1 class_weight0=1.8227 class_weight1=0.6890
+11732.1s	471	  multirocket: vowel_weight=1.00 class_weight0=1.823 threshold=0.50 acc=0.625 BA=0.570 Vrec=0.444 Crec=0.696
+11732.2s	472	    mr_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+11732.2s	473	      mr_hydra: inner fit 1/2 weight=1
+11781.5s	474	      mr_hydra: inner fit 2/2 weight=1
+11834.2s	475	      mr_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.233 inner_BA=0.476
+11834.2s	476	      mr_hydra: inner fit 1/2 weight=2
+11886.4s	477	      mr_hydra: inner fit 2/2 weight=2
+11939.9s	478	      mr_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.233 inner_BA=0.476
+11939.9s	479	    mr_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+11939.9s	480	    mr_hydra: final fit with vowel_weight=1 class_weight0=1.8227 class_weight1=0.6890
+12004.3s	481	  mr_hydra: vowel_weight=1.00 class_weight0=1.823 threshold=0.50 acc=0.703 BA=0.574 Vrec=0.278 Crec=0.870
+12004.3s	482	    catch22: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+12004.3s	483	      catch22: inner fit 1/2 weight=1
+12187.2s	484	      catch22: inner fit 2/2 weight=1
+12366.0s	485	      catch22: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.146 inner_BA=0.517
+12366.0s	486	      catch22: inner fit 1/2 weight=2
+12540.1s	487	      catch22: inner fit 2/2 weight=2
+12717.0s	488	      catch22: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.274 inner_BA=0.518
+12717.0s	489	    catch22: weight_guard selected_nonunit=False vowel_gain=0.128 BA_delta=0.002 Crec_delta=-0.125
+12717.0s	490	    catch22: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+12717.0s	491	    catch22: final fit with vowel_weight=1 class_weight0=1.8227 class_weight1=0.6890
+12928.5s	492	  catch22: vowel_weight=1.00 class_weight0=1.823 threshold=0.50 acc=0.562 BA=0.493 Vrec=0.333 Crec=0.652
+12928.6s	493	    summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+12928.6s	494	      summary: inner fit 1/2 weight=1
+12934.0s	495	      summary: inner fit 2/2 weight=1
+12939.5s	496	      summary: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.408 inner_BA=0.504
+12939.5s	497	      summary: inner fit 1/2 weight=2
+12944.6s	498	      summary: inner fit 2/2 weight=2
+12950.0s	499	      summary: weight=2 selected_inner_threshold=0.40 inner_Vrec=0.212 inner_BA=0.523
+12950.0s	500	    summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+12950.0s	501	    summary: final fit with vowel_weight=1 class_weight0=1.8227 class_weight1=0.6890
+12956.5s	502	  summary: vowel_weight=1.00 class_weight0=1.823 threshold=0.50 acc=0.500 BA=0.551 Vrec=0.667 Crec=0.435
+12956.6s	503	    catch22_summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+12956.6s	504	      catch22_summary: inner fit 1/2 weight=1
+13133.6s	505	      catch22_summary: inner fit 2/2 weight=1
+13316.5s	506	      catch22_summary: weight=1 selected_inner_threshold=0.45 inner_Vrec=0.105 inner_BA=0.517
+13316.5s	507	      catch22_summary: inner fit 1/2 weight=2
+13498.0s	508	      catch22_summary: inner fit 2/2 weight=2
+13683.6s	509	      catch22_summary: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.744 inner_BA=0.520
+13683.6s	510	    catch22_summary: weight_guard selected_nonunit=False vowel_gain=0.638 BA_delta=0.003 Crec_delta=-0.632
+13683.6s	511	    catch22_summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+13683.6s	512	    catch22_summary: final fit with vowel_weight=1 class_weight0=1.8227 class_weight1=0.6890
+13901.5s	513	  catch22_summary: vowel_weight=1.00 class_weight0=1.823 threshold=0.45 acc=0.625 BA=0.519 Vrec=0.278 Crec=0.761
+13901.5s	514	  adaptive_best_single: source=summary vowel_weight=1.00 threshold=0.50 acc=0.500 BA=0.551 Vrec=0.667 Crec=0.435
+13902.4s	515	  catch22_summary_mr_hydra: bases=['mr_hydra', 'catch22_summary'] weights={'mr_hydra': 0.6, 'catch22_summary': 0.4} threshold=0.50 acc=0.297 BA=0.426 Vrec=0.722 Crec=0.130
+13902.4s	516	
+13902.4s	517	FOLD 7: held-out=MM18 train=514 test=64
+13902.4s	518	    hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+13902.5s	519	      hydra: inner fit 1/2 weight=1
+13905.5s	520	      hydra: inner fit 2/2 weight=1
+13909.2s	521	      hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.331 inner_BA=0.445
+13909.2s	522	      hydra: inner fit 1/2 weight=2
+13912.9s	523	      hydra: inner fit 2/2 weight=2
+13916.7s	524	      hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.700 inner_BA=0.464
+13916.7s	525	    hydra: weight_guard selected_nonunit=False vowel_gain=0.369 BA_delta=0.019 Crec_delta=-0.332
+13916.7s	526	    hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+13916.7s	527	    hydra: final fit with vowel_weight=1 class_weight0=1.8099 class_weight1=0.6909
+13921.4s	528	  hydra: vowel_weight=1.00 class_weight0=1.810 threshold=0.50 acc=0.438 BA=0.467 Vrec=0.529 Crec=0.404
+13921.4s	529	    minirocket_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+13921.4s	530	      minirocket_hydra: inner fit 1/2 weight=1
+13930.0s	531	      minirocket_hydra: inner fit 2/2 weight=1
+13938.5s	532	      minirocket_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.254 inner_BA=0.501
+13938.5s	533	      minirocket_hydra: inner fit 1/2 weight=2
+13946.3s	534	      minirocket_hydra: inner fit 2/2 weight=2
+13954.2s	535	      minirocket_hydra: weight=2 selected_inner_threshold=0.55 inner_Vrec=0.883 inner_BA=0.486
+13954.2s	536	    minirocket_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+13954.2s	537	    minirocket_hydra: final fit with vowel_weight=1 class_weight0=1.8099 class_weight1=0.6909
+13964.4s	538	  minirocket_hydra: vowel_weight=1.00 class_weight0=1.810 threshold=0.50 acc=0.703 BA=0.535 Vrec=0.176 Crec=0.894
+13964.5s	539	    multirocket: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+13964.5s	540	      multirocket: inner fit 1/2 weight=1
+13974.7s	541	      multirocket: inner fit 2/2 weight=1
+13984.9s	542	      multirocket: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.433 inner_BA=0.521
+13984.9s	543	      multirocket: inner fit 1/2 weight=2
+13994.7s	544	      multirocket: inner fit 2/2 weight=2
+14005.3s	545	      multirocket: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.472 inner_BA=0.512
+14005.3s	546	    multirocket: weight_guard selected_nonunit=False vowel_gain=0.040 BA_delta=-0.010 Crec_delta=-0.059
+14005.3s	547	    multirocket: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+14005.3s	548	    multirocket: final fit with vowel_weight=1 class_weight0=1.8099 class_weight1=0.6909
+14017.2s	549	  multirocket: vowel_weight=1.00 class_weight0=1.810 threshold=0.50 acc=0.750 BA=0.605 Vrec=0.294 Crec=0.915
+14017.3s	550	    mr_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+14017.3s	551	      mr_hydra: inner fit 1/2 weight=1
+14067.1s	552	      mr_hydra: inner fit 2/2 weight=1
+14120.2s	553	      mr_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.317 inner_BA=0.519
+14120.2s	554	      mr_hydra: inner fit 1/2 weight=2
+14175.6s	555	      mr_hydra: inner fit 2/2 weight=2
+14231.7s	556	      mr_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.317 inner_BA=0.513
+14231.7s	557	    mr_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight
+14231.7s	558	    mr_hydra: final fit with vowel_weight=1 class_weight0=1.8099 class_weight1=0.6909
+14296.4s	559	  mr_hydra: vowel_weight=1.00 class_weight0=1.810 threshold=0.50 acc=0.688 BA=0.506 Vrec=0.118 Crec=0.894
+14296.4s	560	    catch22: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+14296.4s	561	      catch22: inner fit 1/2 weight=1
+14465.9s	562	      catch22: inner fit 2/2 weight=1
+14644.3s	563	      catch22: weight=1 selected_inner_threshold=0.60 inner_Vrec=0.485 inner_BA=0.529
+14644.3s	564	      catch22: inner fit 1/2 weight=2
+14813.8s	565	      catch22: inner fit 2/2 weight=2
+14991.2s	566	      catch22: weight=2 selected_inner_threshold=0.60 inner_Vrec=0.512 inner_BA=0.518
+14991.3s	567	    catch22: weight_guard selected_nonunit=False vowel_gain=0.027 BA_delta=-0.011 Crec_delta=-0.050
+14991.3s	568	    catch22: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+14991.3s	569	    catch22: final fit with vowel_weight=1 class_weight0=1.8099 class_weight1=0.6909
+15202.6s	570	  catch22: vowel_weight=1.00 class_weight0=1.810 threshold=0.60 acc=0.312 BA=0.532 Vrec=1.000 Crec=0.064
+15202.7s	571	    summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+15202.7s	572	      summary: inner fit 1/2 weight=1
+15207.8s	573	      summary: inner fit 2/2 weight=1
+15213.1s	574	      summary: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.429 inner_BA=0.514
+15213.1s	575	      summary: inner fit 1/2 weight=2
+15218.2s	576	      summary: inner fit 2/2 weight=2
+15223.7s	577	      summary: weight=2 selected_inner_threshold=0.60 inner_Vrec=0.662 inner_BA=0.502
+15223.7s	578	    summary: weight_guard selected_nonunit=False vowel_gain=0.233 BA_delta=-0.012 Crec_delta=-0.256
+15223.7s	579	    summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+15223.7s	580	    summary: final fit with vowel_weight=1 class_weight0=1.8099 class_weight1=0.6909
+15230.0s	581	  summary: vowel_weight=1.00 class_weight0=1.810 threshold=0.50 acc=0.516 BA=0.558 Vrec=0.647 Crec=0.468
+15230.1s	582	    catch22_summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+15230.1s	583	      catch22_summary: inner fit 1/2 weight=1
+15406.0s	584	      catch22_summary: inner fit 2/2 weight=1
+15593.6s	585	      catch22_summary: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.260 inner_BA=0.513
+15593.6s	586	      catch22_summary: inner fit 1/2 weight=2
+15771.9s	587	      catch22_summary: inner fit 2/2 weight=2
+15959.6s	588	      catch22_summary: weight=2 selected_inner_threshold=0.60 inner_Vrec=0.630 inner_BA=0.517
+15959.6s	589	    catch22_summary: weight_guard selected_nonunit=False vowel_gain=0.371 BA_delta=0.005 Crec_delta=-0.362
+15959.6s	590	    catch22_summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+15959.6s	591	    catch22_summary: final fit with vowel_weight=1 class_weight0=1.8099 class_weight1=0.6909
+16175.3s	592	  catch22_summary: vowel_weight=1.00 class_weight0=1.810 threshold=0.50 acc=0.594 BA=0.573 Vrec=0.529 Crec=0.617
+16175.3s	593	  adaptive_best_single: source=catch22 vowel_weight=1.00 threshold=0.60 acc=0.312 BA=0.532 Vrec=1.000 Crec=0.064
+16176.2s	594	  catch22_summary_mr_hydra: bases=['mr_hydra', 'catch22_summary'] weights={'mr_hydra': 0.2, 'catch22_summary': 0.8} threshold=0.50 acc=0.688 BA=0.506 Vrec=0.118 Crec=0.894
+16176.2s	595	
+16176.2s	596	FOLD 8: held-out=MM14 train=515 test=63
+16176.3s	597	    hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+16176.3s	598	      hydra: inner fit 1/2 weight=1
+16180.2s	599	      hydra: inner fit 2/2 weight=1
+16183.6s	600	      hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.468 inner_BA=0.487
+16183.6s	601	      hydra: inner fit 1/2 weight=2
+16186.9s	602	      hydra: inner fit 2/2 weight=2
+16190.2s	603	      hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.813 inner_BA=0.503
+16190.2s	604	    hydra: weight_guard selected_nonunit=False vowel_gain=0.345 BA_delta=0.016 Crec_delta=-0.313
+16190.2s	605	    hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+16190.2s	606	    hydra: final fit with vowel_weight=1 class_weight0=1.8007 class_weight1=0.6922
+16195.2s	607	  hydra: vowel_weight=1.00 class_weight0=1.801 threshold=0.50 acc=0.635 BA=0.590 Vrec=0.500 Crec=0.681
+16195.2s	608	    minirocket_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+16195.2s	609	      minirocket_hydra: inner fit 1/2 weight=1
+16202.9s	610	      minirocket_hydra: inner fit 2/2 weight=1
+16211.4s	611	      minirocket_hydra: weight=1 selected_inner_threshold=0.55 inner_Vrec=0.647 inner_BA=0.505
+16211.4s	612	      minirocket_hydra: inner fit 1/2 weight=2
+16219.6s	613	      minirocket_hydra: inner fit 2/2 weight=2
+16227.2s	614	      minirocket_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.624 inner_BA=0.528
+16227.2s	615	    minirocket_hydra: weight_guard selected_nonunit=False vowel_gain=-0.023 BA_delta=0.023 Crec_delta=0.069
+16227.2s	616	    minirocket_hydra: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance_unit_baseline_guard
+16227.2s	617	    minirocket_hydra: final fit with vowel_weight=1 class_weight0=1.8007 class_weight1=0.6922
+16237.5s	618	  minirocket_hydra: vowel_weight=1.00 class_weight0=1.801 threshold=0.55 acc=0.349 BA=0.543 Vrec=0.938 Crec=0.149
+16237.6s	619	    multirocket: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+16237.6s	620	      multirocket: inner fit 1/2 weight=1
+16247.5s	621	      multirocket: inner fit 2/2 weight=1
+16256.8s	622	      multirocket: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.308 inner_BA=0.513
+16256.8s	623	      multirocket: inner fit 1/2 weight=2
+16266.9s	624	      multirocket: inner fit 2/2 weight=2
+16277.3s	625	      multirocket: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.351 inner_BA=0.517
+16277.3s	626	    multirocket: weight_guard selected_nonunit=False vowel_gain=0.043 BA_delta=0.004 Crec_delta=-0.034
+16277.3s	627	    multirocket: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+16277.3s	628	    multirocket: final fit with vowel_weight=1 class_weight0=1.8007 class_weight1=0.6922
+16289.9s	629	  multirocket: vowel_weight=1.00 class_weight0=1.801 threshold=0.50 acc=0.619 BA=0.436 Vrec=0.062 Crec=0.809
+16289.9s	630	    mr_hydra: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+16289.9s	631	      mr_hydra: inner fit 1/2 weight=1
+16341.1s	632	      mr_hydra: inner fit 2/2 weight=1
+16388.8s	633	      mr_hydra: weight=1 selected_inner_threshold=0.50 inner_Vrec=0.346 inner_BA=0.527
+16388.8s	634	      mr_hydra: inner fit 1/2 weight=2
+16438.9s	635	      mr_hydra: inner fit 2/2 weight=2
+16487.8s	636	      mr_hydra: weight=2 selected_inner_threshold=0.50 inner_Vrec=0.362 inner_BA=0.534
+16487.8s	637	    mr_hydra: weight_guard selected_nonunit=False vowel_gain=0.016 BA_delta=0.007 Crec_delta=-0.002
+16487.8s	638	    mr_hydra: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+16487.8s	639	    mr_hydra: final fit with vowel_weight=1 class_weight0=1.8007 class_weight1=0.6922
+16549.2s	640	  mr_hydra: vowel_weight=1.00 class_weight0=1.801 threshold=0.50 acc=0.746 BA=0.500 Vrec=0.000 Crec=1.000
+16549.2s	641	    catch22: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+16549.2s	642	      catch22: inner fit 1/2 weight=1
+16724.5s	643	      catch22: inner fit 2/2 weight=1
+16889.9s	644	      catch22: weight=1 selected_inner_threshold=0.45 inner_Vrec=0.160 inner_BA=0.515
+16889.9s	645	      catch22: inner fit 1/2 weight=2
+17070.0s	646	      catch22: inner fit 2/2 weight=2
+17242.1s	647	      catch22: weight=2 selected_inner_threshold=0.45 inner_Vrec=0.184 inner_BA=0.516
+17242.1s	648	    catch22: weight_guard selected_nonunit=False vowel_gain=0.024 BA_delta=0.001 Crec_delta=-0.022
+17242.1s	649	    catch22: selected vowel_weight=1 by fallback_balanced_accuracy_no_feasible_weight_unit_baseline_guard
+17242.1s	650	    catch22: final fit with vowel_weight=1 class_weight0=1.8007 class_weight1=0.6922
+17452.6s	651	  catch22: vowel_weight=1.00 class_weight0=1.801 threshold=0.45 acc=0.651 BA=0.642 Vrec=0.625 Crec=0.660
+17452.7s	652	    summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+17452.7s	653	      summary: inner fit 1/2 weight=1
+17458.2s	654	      summary: inner fit 2/2 weight=1
+17463.5s	655	      summary: weight=1 selected_inner_threshold=0.60 inner_Vrec=0.744 inner_BA=0.509
+17463.5s	656	      summary: inner fit 1/2 weight=2
+17468.9s	657	      summary: inner fit 2/2 weight=2
+17474.2s	658	      summary: weight=2 selected_inner_threshold=0.45 inner_Vrec=0.091 inner_BA=0.521
+17474.2s	659	    summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+17474.2s	660	    summary: final fit with vowel_weight=1 class_weight0=1.8007 class_weight1=0.6922
+17480.9s	661	  summary: vowel_weight=1.00 class_weight0=1.801 threshold=0.60 acc=0.460 BA=0.494 Vrec=0.562 Crec=0.426
+17480.9s	662	    catch22_summary: adaptive_mode=class_weight_fast, inner_unit=subject_group, inner_fits=4, candidates=[1.0, 2.0]
+17480.9s	663	      catch22_summary: inner fit 1/2 weight=1
+17666.5s	664	      catch22_summary: inner fit 2/2 weight=1
+17845.6s	665	      catch22_summary: weight=1 selected_inner_threshold=0.55 inner_Vrec=0.641 inner_BA=0.500
+17845.6s	666	      catch22_summary: inner fit 1/2 weight=2
+18032.2s	667	      catch22_summary: inner fit 2/2 weight=2
+18213.1s	668	      catch22_summary: weight=2 selected_inner_threshold=0.40 inner_Vrec=0.086 inner_BA=0.528
+18213.1s	669	    catch22_summary: selected vowel_weight=1 by vowel_recall_priority_within_global_ba_tolerance
+18213.1s	670	    catch22_summary: final fit with vowel_weight=1 class_weight0=1.8007 class_weight1=0.6922
+18425.3s	671	  catch22_summary: vowel_weight=1.00 class_weight0=1.801 threshold=0.55 acc=0.556 BA=0.599 Vrec=0.688 Crec=0.511
+18425.3s	672	  adaptive_best_single: source=summary vowel_weight=1.00 threshold=0.60 acc=0.460 BA=0.494 Vrec=0.562 Crec=0.426
+18426.1s	673	  catch22_summary_mr_hydra: bases=['mr_hydra', 'catch22_summary'] weights={'mr_hydra': 0.2, 'catch22_summary': 0.8} threshold=0.50 acc=0.651 BA=0.622 Vrec=0.562 Crec=0.681
+18426.6s	674	
+18426.6s	675	=== SUMMARY ===
+18426.6s	676	Consonant-majority accuracy baseline: 0.7249 (72.49%)
+18426.6s	677	adaptive_best_single: acc=0.4956±0.1261 BA=0.5060±0.0365 macroF1=0.4368 Vrec=0.5302 Crec=0.4818 AUC=0.5073
+18426.6s	678	catch22: acc=0.4757±0.1268 BA=0.5272±0.0523 macroF1=0.4348 Vrec=0.6525 Crec=0.4020 AUC=0.5134
+18426.6s	679	catch22_summary: acc=0.5400±0.0906 BA=0.5374±0.0598 macroF1=0.4786 Vrec=0.5332 Crec=0.5416 AUC=0.5627
+18426.6s	680	catch22_summary_mr_hydra: acc=0.5563±0.1255 BA=0.5108±0.0646 macroF1=0.4703 Vrec=0.4041 Crec=0.6175 AUC=0.5227
+18426.6s	681	hydra: acc=0.4748±0.1626 BA=0.4952±0.0605 macroF1=0.3883 Vrec=0.5592 Crec=0.4311 AUC=0.4952
+18426.6s	682	minirocket_hydra: acc=0.5036±0.1940 BA=0.5142±0.0277 macroF1=0.3906 Vrec=0.5541 Crec=0.4744 AUC=0.5012
+18426.6s	683	mr_hydra: acc=0.6446±0.1179 BA=0.5178±0.0346 macroF1=0.4643 Vrec=0.2448 Crec=0.7909 AUC=0.5178
+18426.6s	684	multirocket: acc=0.5669±0.1398 BA=0.5133±0.0588 macroF1=0.4713 Vrec=0.4036 Crec=0.6230 AUC=0.5133
+18426.6s	685	summary: acc=0.5312±0.0971 BA=0.5089±0.0507 macroF1=0.4557 Vrec=0.4597 Crec=0.5580 AUC=0.5302
+18426.6s	686	Wrote: /kaggle/working/karaone_final_results/final_results.json
+18426.6s	687	Complete per-fold table: /kaggle/working/karaone_final_results/final_fold_results_table.md
+18426.6s	688	Machine-readable per-fold CSV: /kaggle/working/karaone_final_results/final_fold_results_table.csv
+18426.6s	689	Fold coverage audit: /kaggle/working/karaone_final_results/final_fold_coverage.csv
+18434.6s	690	/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+18434.6s	691	  cells[i][c] = re.sub('\\\\\|', '|', cell)
+18435.0s	692	/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+18435.0s	693	  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+18435.9s	694	[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+18436.4s	695	[NbConvertApp] Writing 192020 bytes to __notebook__.ipynb
+18439.9s	696	[NbConvertApp] Converting notebook __notebook__.ipynb to html
+18441.8s	697	[NbConvertApp] Writing 865669 bytes to __results__.html

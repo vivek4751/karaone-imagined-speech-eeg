@@ -1,0 +1,73 @@
+fold,test_subject,model,n_test,accuracy,balanced_accuracy,vowel_recall,consonant_recall,adaptive_vowel_weight,adaptive_class_weight_vowel_0,decision_threshold,source_model,fusion_weights,macro_f1,vowel_precision,consonant_precision,roc_auc,average_precision,confusion_matrix,note
+1,MM21,adaptive_best_single,77,0.545,0.368,0.0,0.737,1.0,,0.55,summary,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+1,MM21,catch22,77,0.312,0.357,0.45,0.263,1.0,1.802,0.65,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+1,MM21,catch22_summary,77,0.455,0.404,0.3,0.509,1.0,1.802,0.6,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+1,MM21,catch22_summary_mr_hydra,77,0.312,0.535,1.0,0.07,,,0.5,,"{'catch22_summary': 0.0, 'mr_hydra': 1.0}",,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+1,MM21,hydra,77,0.727,0.491,0.0,0.982,1.0,1.802,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+1,MM21,minirocket_hydra,77,0.74,0.5,0.0,1.0,1.0,1.802,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+1,MM21,mr_hydra,77,0.688,0.465,0.0,0.93,1.0,1.802,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+1,MM21,multirocket,77,0.662,0.496,0.15,0.842,2.0,3.604,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+1,MM21,summary,77,0.545,0.368,0.0,0.737,1.0,1.802,0.55,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+2,MM11,adaptive_best_single,77,0.532,0.44,0.238,0.643,1.0,,0.5,minirocket_hydra,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+2,MM11,catch22,77,0.481,0.524,0.619,0.429,1.0,1.815,0.65,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+2,MM11,catch22_summary,77,0.494,0.473,0.429,0.518,1.0,1.815,0.55,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+2,MM11,catch22_summary_mr_hydra,77,0.494,0.503,0.524,0.482,,,0.5,,"{'mr_hydra': 0.0, 'catch22_summary': 1.0}",,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+2,MM11,hydra,77,0.377,0.438,0.571,0.304,1.0,1.815,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+2,MM11,minirocket_hydra,77,0.532,0.44,0.238,0.643,1.0,1.815,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+2,MM11,mr_hydra,77,0.623,0.488,0.19,0.786,1.0,1.815,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+2,MM11,multirocket,77,0.519,0.491,0.429,0.554,1.0,1.815,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+2,MM11,summary,77,0.584,0.476,0.238,0.714,1.0,1.815,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+3,P02,adaptive_best_single,95,0.463,0.448,0.417,0.479,1.0,,0.65,catch22,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+3,P02,catch22,95,0.463,0.448,0.417,0.479,1.0,1.789,0.65,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+3,P02,catch22_summary,95,0.737,0.493,0.0,0.986,1.0,1.789,0.35,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+3,P02,catch22_summary_mr_hydra,95,0.589,0.532,0.417,0.648,,,0.5,,"{'mr_hydra': 0.4, 'catch22_summary': 0.6}",,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+3,P02,hydra,95,0.568,0.518,0.417,0.62,1.0,1.789,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+3,P02,minirocket_hydra,95,0.463,0.558,0.75,0.366,1.0,1.789,0.55,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+3,P02,mr_hydra,95,0.695,0.465,0.0,0.93,1.0,1.789,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+3,P02,multirocket,95,0.611,0.464,0.167,0.761,1.0,1.789,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+3,P02,summary,95,0.653,0.492,0.167,0.817,1.0,1.789,0.45,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+4,MM12,adaptive_best_single,73,0.288,0.5,1.0,0.0,1.0,,0.6,catch22,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+4,MM12,catch22,73,0.288,0.5,1.0,0.0,1.0,1.83,0.6,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+4,MM12,catch22_summary,73,0.658,0.476,0.048,0.904,2.0,3.659,0.4,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+4,MM12,catch22_summary_mr_hydra,73,0.671,0.485,0.048,0.923,,,0.5,,"{'catch22_summary': 0.4, 'mr_hydra': 0.6}",,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+4,MM12,hydra,73,0.301,0.51,1.0,0.019,1.0,1.83,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+4,MM12,minirocket_hydra,73,0.288,0.5,1.0,0.0,1.0,1.83,0.55,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+4,MM12,mr_hydra,73,0.342,0.524,0.952,0.096,1.0,1.83,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+4,MM12,multirocket,73,0.342,0.51,0.905,0.115,1.0,1.83,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+4,MM12,summary,73,0.712,0.528,0.095,0.962,1.0,1.83,0.35,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+5,MM09,adaptive_best_single,65,0.554,0.618,0.818,0.419,1.0,,0.6,summary,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+5,MM09,catch22,65,0.446,0.559,0.909,0.209,1.0,1.872,0.65,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+5,MM09,catch22_summary,65,0.662,0.655,0.636,0.674,1.0,1.872,0.55,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+5,MM09,catch22_summary_mr_hydra,65,0.646,0.533,0.182,0.884,,,0.5,,"{'mr_hydra': 0.2, 'catch22_summary': 0.8}",,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+5,MM09,hydra,65,0.4,0.436,0.545,0.326,1.0,1.872,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+5,MM09,minirocket_hydra,65,0.369,0.512,0.955,0.07,1.0,1.872,0.55,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+5,MM09,mr_hydra,65,0.646,0.533,0.182,0.884,1.0,1.872,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+5,MM09,multirocket,65,0.6,0.542,0.364,0.721,1.0,1.872,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+5,MM09,summary,65,0.554,0.618,0.818,0.419,1.0,1.872,0.6,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+6,MM16,adaptive_best_single,64,0.469,0.512,0.611,0.413,1.0,,0.55,summary,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+6,MM16,catch22,64,0.578,0.504,0.333,0.674,1.0,1.823,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+6,MM16,catch22_summary,64,0.672,0.535,0.222,0.848,1.0,1.823,0.45,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+6,MM16,catch22_summary_mr_hydra,64,0.234,0.332,0.556,0.109,,,0.5,,"{'mr_hydra': 0.6, 'catch22_summary': 0.4}",,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+6,MM16,hydra,64,0.469,0.529,0.667,0.391,1.0,1.823,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+6,MM16,minirocket_hydra,64,0.422,0.53,0.778,0.283,1.0,1.823,0.55,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+6,MM16,mr_hydra,64,0.766,0.668,0.444,0.891,1.0,1.823,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+6,MM16,multirocket,64,0.641,0.581,0.444,0.717,1.0,1.823,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+6,MM16,summary,64,0.469,0.512,0.611,0.413,1.0,1.823,0.55,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+7,MM18,adaptive_best_single,64,0.328,0.543,1.0,0.085,1.0,,0.6,summary,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+7,MM18,catch22,64,0.344,0.441,0.647,0.234,1.0,1.81,0.45,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+7,MM18,catch22_summary,64,0.328,0.543,1.0,0.085,1.0,1.81,0.6,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+7,MM18,catch22_summary_mr_hydra,64,0.688,0.487,0.059,0.915,,,0.5,,"{'catch22_summary': 0.4, 'mr_hydra': 0.6}",,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+7,MM18,hydra,64,0.547,0.429,0.176,0.681,1.0,1.81,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+7,MM18,minirocket_hydra,64,0.547,0.504,0.412,0.596,1.0,1.81,0.55,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+7,MM18,mr_hydra,64,0.594,0.442,0.118,0.766,1.0,1.81,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+7,MM18,multirocket,64,0.672,0.626,0.529,0.723,1.0,1.81,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+7,MM18,summary,64,0.328,0.543,1.0,0.085,1.0,1.81,0.6,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+8,MM14,adaptive_best_single,63,0.746,0.5,0.0,1.0,1.0,,0.5,mr_hydra,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+8,MM14,catch22,63,0.667,0.55,0.312,0.787,1.0,1.801,0.45,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+8,MM14,catch22_summary,63,0.683,0.478,0.062,0.894,1.0,1.801,0.35,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+8,MM14,catch22_summary_mr_hydra,63,0.397,0.369,0.312,0.426,,,0.5,,"{'mr_hydra': 0.2, 'catch22_summary': 0.8}",,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+8,MM14,hydra,63,0.635,0.426,0.0,0.851,1.0,1.801,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+8,MM14,minirocket_hydra,63,0.714,0.479,0.0,0.957,1.0,1.801,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+8,MM14,mr_hydra,63,0.746,0.5,0.0,1.0,1.0,1.801,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+8,MM14,multirocket,63,0.698,0.489,0.062,0.915,2.0,3.601,0.5,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.
+8,MM14,summary,63,0.556,0.517,0.438,0.596,1.0,1.801,0.6,,,,,,,,,Parsed from completed Kaggle log; precision/F1/AUC/confusion fields were not printed in that log.

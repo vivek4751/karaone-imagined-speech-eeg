@@ -1,0 +1,38 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local and Kaggle generated artifacts
+*.npz
+*.mat
+*.set
+*.cnt
+*.fdt
+*.edf
+*.bdf
+*.vhdr
+*.eeg
+*.vmrk
+/kaggle/
+outputs/
+cache/
+
+# Secrets and machine-local configuration
+.env
+.env.*
+*.pem
+*.key
+*.secret
+
+# Large/generated reports not explicitly curated
+*.html
+*.png
+*.jpg
+*.jpeg
+*.pkl
+*.joblib
+.DS_Store
